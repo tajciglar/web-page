@@ -32,6 +32,14 @@ h2{
    
 }
 
+.header-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
 .top-header{
     display: flex;
     justify-content: space-between;
@@ -65,6 +73,10 @@ button{
 }
 
 /* content */
+
+.content-cards {
+    margin-bottom: 40px;
+}
 .cards {
     display: flex;
     justify-content: center;
@@ -106,14 +118,61 @@ button{
 
 .content-quote{
     background-color: #E5E7EB;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 70px;
+    padding: 20px 70px;
+
     
 }
 
 #author {
     text-align: right;
+    font-weight: bold;
+}
+blockquote {
+    font:  italic 36px "Fira Sans", serif;
+}
+
+.signup {
+    height: 200px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 10px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-signup {
+    background-color: #4d94ff;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.container-signup button {
+    border: solid 2px white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0px;
+    margin: 15px;
+    width: 80px;
+    font-weight: bold;
 }
